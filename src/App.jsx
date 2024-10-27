@@ -2,6 +2,7 @@
 import './App.css'
 import DaisiUi from './assets/components/DaisiUI/DaisiUi'
 import Navbar from './assets/components/Navbar/Navbar'
+import PriceOptions from './assets/components/PriceOptionse/PriceOptions'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
     <Navbar></Navbar>
     {/* <DaisiUi></DaisiUi> */}
+    <PriceOptions></PriceOptions>
       
      
  
