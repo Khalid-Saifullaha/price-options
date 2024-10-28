@@ -17,7 +17,7 @@ const LineChart = () => {
     ];
 
     return (
-        <div>
+        <div className='ml-6'>
            <LChart width={800} height={400} data={subjectMarksData}>
            <XAxis dataKey="name" />
            <YAxis />
